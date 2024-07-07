@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting Ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done - Test can be Started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-07T20:05:12 IST" name="Default suite" finished-at="2024-07-07T20:05:22 IST" duration-ms="9220">
+    <groups>
+    </groups>
+    <test started-at="2024-07-07T20:05:12 IST" name="Default test" finished-at="2024-07-07T20:05:22 IST" duration-ms="9220">
+      <class name="Amazon_testcases.LoginTestAmazon">
+        <test-method is-config="true" signature="setUpsuite()[pri:0, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:12 IST" name="setUpsuite" finished-at="2024-07-07T20:05:12 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting Ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done - Test can be Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpsuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:12 IST" name="setup" finished-at="2024-07-07T20:05:18 IST" duration-ms="5851" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp()[pri:1, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:18 IST" name="loginApp" finished-at="2024-07-07T20:05:21 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:21 IST" name="tearDownMethod" finished-at="2024-07-07T20:05:21 IST" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestAmazon.loginApp()[pri:1, instance:Amazon_testcases.LoginTestAmazon@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="loginApp1()[pri:2, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:21 IST" name="loginApp1" finished-at="2024-07-07T20:05:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:21 IST" name="tearDownMethod" finished-at="2024-07-07T20:05:22 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTestAmazon.loginApp1()[pri:2, instance:Amazon_testcases.LoginTestAmazon@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Amazon_testcases.LoginTestAmazon@4c12331b]" started-at="2024-07-07T20:05:22 IST" name="teardown" finished-at="2024-07-07T20:05:22 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Amazon_testcases.LoginTestAmazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
